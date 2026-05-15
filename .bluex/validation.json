@@ -1,0 +1,13 @@
+{
+  "requiredBeforeReady": "full",
+  "profiles": {
+    "full": {
+      "steps": [
+        {
+          "id": "diff-check",
+          "run": "git diff --check origin/main...HEAD"
+        }
+      ]
+    }
+  }
+}
