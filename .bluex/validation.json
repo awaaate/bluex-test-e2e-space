@@ -1,0 +1,15 @@
+{
+  "requiredBeforeReady": "full",
+  "profiles": {
+    "full": {
+      "timeoutMs": 120000,
+      "maxOutputBytes": 20000,
+      "steps": [
+        {
+          "id": "diff-check",
+          "run": "git diff --check origin/main...HEAD"
+        }
+      ]
+    }
+  }
+}
