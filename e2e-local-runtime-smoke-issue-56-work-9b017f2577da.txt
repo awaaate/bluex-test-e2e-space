@@ -1,0 +1,4 @@
+issue: issue_39faa55e3e3d
+github_issue: awaaate/bluex-test-e2e-space#56
+work: work_9b017f2577da4bec9c99fe2a38e5e6d7
+session: session_358cf02d208247349b679f5ef2c6b3a5
